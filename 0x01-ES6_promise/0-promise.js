@@ -1,10 +1,4 @@
-// This function returns a Promise that resolves after a specified delay.
+// Return  a Promise using function getResponseFromAPI()
 export default function getResponseFromAPI() {
-  return new Promise((resolve, reject) => {
-    // Simulate an API call with a delay of 2 seconds.
-    setTimeout(() => {
-      // Resolve the Promise with the desired response.
-      resolve('True');
-    }, 2000); // 2-second delay
-  });
+  return new Promise(() => {});
 }
